@@ -3,7 +3,7 @@ import { useState } from 'react'
 import MovieList  from './Auth/MovieList'
 import Header from './Auth/Header'
 import Home from "./Auth/Home";
-import UpcomingMovies from "./Auth/UpcomingMovies"; // Ensure the filename and import match
+import UpcomingMovies from "./Auth/Upcomingmovies";
 import ContactForm from "./Auth/contact";
 
 
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="#" element={<Home/>} />
         <Route path="/movielist" element={<MovieList />} />   
-        <Route path="/UpcomingMovies" element={<UpcomingMovies />} />
+        <Route path="/Upcomingmovies" element={<UpcomingMovies />} />
         <Route path="/Contact" element={<ContactForm />} /> 
       </Routes>
     </Router>
